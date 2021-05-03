@@ -54,7 +54,7 @@ const profileData = {
     {
       title: 'COMSOC - The Commerce Society of College of Vocational Studies',
       duration: 'Jan,2021 - Present',
-      desc: 'Have worked as an organizing committee member in the Corporate Relation department, where we proposed organizations to sponsor our society in return for some deliverables. 
+      desc: 'Have worked as an organizing committee member in the Corporate Relation department, where we proposed organizations to sponsor our society Event in return for some deliverables. 
             'Also worked under the Event Designing Team in which we devised various Events and successfully executed them during two days fest.'
     }
   ],
