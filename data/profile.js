@@ -1,103 +1,83 @@
 const profileData = {
   title: 'Profile',
   name: 'Harsh Sharma',
-  sub_title: '',
+  sub_title: `Ethical Hacker`,
   about: {
     intro: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
     contact: {
-      email: '',
+      email: 'harsh.sharma1805@yahoo.com',
       phone: '+91 7011958362',
-      address: 'Gurugram, H'
+      address: `Gurugram, Haryana`
     }
   },
   links: [
-    { title: 'Google', src: 'https://www.google.com/' },
-    { title: 'Facebook', src: 'https://www.facebook.com/' }
+    { title: 'LinkedIn', src: 'https://www.linkedin.com/in/harsh-sharma-8b8458163/' },
+    { title: `Facebook`, src: `https://www.facebook.com/` }
   ],
   education: [
     {
-      alma: 'Lorem Ipsum',
-      duration: '1978 - 1980',
-      std: 'MSC',
-      score: '99.99%'
+      alma: 'College of Vocational Studies, University of Delhi',
+      duration: '2020-2023',
+      std: 'B.COM. (Hons.)',
+      score: `8 GPA`
     },
     {
-      alma: 'Dotor Sit Amet',
-      duration: '1975 - 1977',
-      std: 'SomeThing',
-      score: '99.99%'
+      alma: 'Sh. S.N. Sidheshwar Sr. Sec. Public School, Gurugram',
+      duration: '2020',
+      std: 'Class XII (Commerce with Maths)',
+      score: '92%'
+    },
+    {
+      alma: 'Sh. S.N. Sidheshwar Sr. Sec. Public School, Gurugram',
+      duration: '2018',
+      std: 'X',
+      score: '85%'
     }
   ],
   skills: [
     {
-      category: 'Lorem Ipsum',
-      topics: ['Dolor', 'Sit', 'Amet', 'Consectetur', 'Adipiscing', 'Elit']
+      category: 'Industry Knowledge',
+      topics: ['Financial Modeling', 'Technical Analysis']
     },
     {
-      category: 'Sed / Eiusmod',
+      category: 'Tools/Technologies',
       topics: [
-        'Tempor',
-        'Incididunt',
-        'Labore',
-        'Dolore',
-        'Magna',
-        'Aliqua',
-        'Labore'
+        'Advanced Excel',
+        'Microsoft Office',
+        'Tally.ERP9',
+        'Basics of Python Programming',
       ]
     },
+     ],
+  Societies: [
     {
-      category: 'Minim Veniam',
-      topics: ['Quis', 'Nostrud', 'Exercitation', 'Ullamco']
-    }
-  ],
-  projects: [
-    {
-      title: 'Lorem Ipsum',
-      duration: 'Mar - Nov 1885',
-      link: 'https://github.com/',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
-    },
-    {
-      title: 'Lorem Ipsum',
-      duration: 'Apr - Jul 1917',
-      link: 'https://github.com/',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+      title: 'COMSOC - The Commerce Society of College of Vocational Studies',
+      duration: 'Jan,2021 - Present',
+      desc: 'Have worked as an organizing committee member in the Corporate Relation department, where we proposed organizations to sponsor our society in return for some deliverables. 
+            'Also worked under the Event Designing Team in which we devised various Events and successfully executed them during two days fest.'
     }
   ],
   experiences: [
     {
-      organization: 'World War 2',
-      title: `General`,
-      date: '1941 - 1945',
+      organization: 'Aspire - The Placement Cell',
+      title: 'Placement Coordinator',
+      date: 'Feb 2021 - Present',
       details: [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-      ]
-    },
-    {
-      organization: 'World War 1',
-      title: `Soldier`,
-      date: '1914 - 1918',
-      details: [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+        'Have worked as a Student Placement Coordinator and connected with the Human Resource manager of various organizations,
+        'and coordinated with them to conduct placement drives successfully. '
       ]
     }
   ],
-  certifications: [
+  Additional: [
     {
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      date: 'Aug 1917'
+      desc: 'National Finalist in Event - Vendition Vendetta during Atharv 2020, organized by IIM Indore.',
+      date: 'Feb 2021'
     },
     {
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      date: 'Jul 1945'
-    }
+      desc: 'Gold Medalist - Mathematics Olympiad',
+      date: '2019'
+    },
   ],
   events: []
 };
